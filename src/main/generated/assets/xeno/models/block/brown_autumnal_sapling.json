@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "xeno:block/brown_autumnal_sapling"
+  }
+}

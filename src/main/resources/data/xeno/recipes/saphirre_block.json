@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "xeno:saphirre"
+    }
+  },
+  "result": {
+    "item": "xeno:saphirre_block"
+  }
+}

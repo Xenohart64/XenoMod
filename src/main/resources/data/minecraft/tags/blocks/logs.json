@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "xeno:palm_tree_log",
+    "xeno:palm_tree_wood",
+    "xeno:stripped_palm_tree_log",
+    "xeno:stripped_palm_tree_wood"
+  ]
+}
