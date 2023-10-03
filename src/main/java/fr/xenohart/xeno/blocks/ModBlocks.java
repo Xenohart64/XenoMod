@@ -37,6 +37,16 @@ public class ModBlocks {
     public static final Block PALM_TREE_SAPLING = registerBlock("palm_tree_sapling", new SaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)), ItemGroups.NATURAL);
     //public static final Block PALM_TREE_STAIRS = registerBlock("palm_tree_stairs", new Block(FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ItemGroups.NATURAL);
 
+    //END_TREE
+    public static final Block END_TREE_LOG = registerBlock("end_tree_log", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ItemGroups.NATURAL);
+    public static final Block END_TREE_WOOD = registerBlock("end_tree_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ItemGroups.NATURAL);
+    public static final Block STRIPPED_END_TREE_LOG = registerBlock("stripped_end_tree_log", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ItemGroups.NATURAL);
+    public static final Block STRIPPED_END_TREE_WOOD = registerBlock("stripped_end_tree_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ItemGroups.NATURAL);
+    public static final Block END_TREE_PLANKS = registerBlock("end_tree_planks", new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ItemGroups.NATURAL);
+    public static final Block END_TREE_LEAVES = registerBlock("end_tree_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ItemGroups.NATURAL);
+    public static final Block END_TREE_SAPLING = registerBlock("end_tree_sapling", new SaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)), ItemGroups.NATURAL);
+
+
     //AUTUMNAL
     public static final Block RED_AUTUMNAL_LEAVES = registerBlock("red_autumnal_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)), ItemGroups.NATURAL);
     public static final Block RED_AUTUMNAL_SAPLING = registerBlock("red_autumnal_sapling", new SaplingBlock(new RedAutumnalSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)), ItemGroups.NATURAL);
@@ -79,7 +89,7 @@ public class ModBlocks {
     public static final Block REDSTONE_BLOCK_WHITE = registerBlock("redstone_block_white", new RedstoneBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).strength(4.0f).requiresTool()), ItemGroups.REDSTONE);
     public static final Block REDSTONE_BLOCK_YELLOW = registerBlock("redstone_block_yellow", new RedstoneBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).strength(4.0f).requiresTool()), ItemGroups.REDSTONE);
 
-    public static final Block REDSTONE_BLUE = registerBlock("redstone_blue", new RedstoneWireBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_WIRE)), ItemGroups.REDSTONE);
+//    public static final Block REDSTONE_BLUE = registerBlock("redstone_blue", new RedstoneWireBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_WIRE)), ItemGroups.REDSTONE);
 //    public static final Block REDSTONE_BLACK = registerBlock("redstone_black", new RedstoneWireBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.REDSTONE);
 //    public static final Block REDSTONE_BROWN = registerBlock("redstone_brown", new RedstoneWireBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.REDSTONE);
 //    public static final Block REDSTONE_CYAN = registerBlock("redstone_cyan", new RedstoneWireBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.REDSTONE);

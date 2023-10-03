@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -84,5 +85,56 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORANGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SANDWICH, Models.GENERATED);
         itemModelGenerator.register(ModItems.COCONUT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
+
+        itemModelGenerator.register(ModItems.SAPHIRRE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPHIRRE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPHIRRE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPHIRRE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SAPHIRRE_SWORD, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPHIRRE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPHIRRE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPHIRRE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPHIRRE_BOOTS));
+
+        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_BOOTS));
+
+        itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OBSIDIAN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OBSIDIAN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OBSIDIAN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OBSIDIAN_BOOTS));
+
+        itemModelGenerator.register(ModItems.SILVER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SILVER_SWORD, Models.HANDHELD);
     }
 }

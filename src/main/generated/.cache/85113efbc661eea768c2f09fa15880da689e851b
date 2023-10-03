@@ -1,7 +1,8 @@
-// 1.20.1	2023-07-02T18:52:58.9686539	Example Mod/xeno
+// 1.20.1	2023-09-15T23:32:07.7159526	Example Mod/xeno
 b9aa1653b6bd64e7c65106fd4635b38727bf765b data\xeno\worldgen\configured_feature\red_autumnal_tree.json
 1ec464849d0194eb9ae91ebd8b677e6ed0cbe7d1 data\xeno\worldgen\configured_feature\orange_autumnal_tree.json
 9c38f49536875da630a48cb260505e72fd35aba6 data\xeno\worldgen\configured_feature\brown_autumnal_tree.json
 1ca9165f06079b4ad5f97475611e5212f56490e8 data\xeno\worldgen\configured_feature\yellow_autumnal_tree.json
-18da01a443ce8ff13efef86a416ebf791dd1f5ff data\xeno\worldgen\configured_feature\palm_tree.json
+fb4d146fe82e4f6fddce69efe057148c4dc01f49 data\xeno\worldgen\configured_feature\palm_tree.json
 9bab95eb7105f68be3b15e414a3b7912355d866b data\xeno\worldgen\placed_feature\palm_tree_placed.json
+71d82d9ab5199448be895d24eeb47b0c4ffe39ff data\xeno\worldgen\configured_feature\blue_mushroom_tree.json
